@@ -7,11 +7,19 @@ The TIMIT corpus of read speech is designed to provide speech data for acoustic-
 
 ## Installation
 
-Note that to install [Kaldi](https://github.com/kaldi-asr/kaldi) first by following the instructions in `INSTALL`.
+Note that to install [Kaldi](https://github.com/kaldi-asr/kaldi) first by following the instructions in [`INSTALL`](https://github.com/kaldi-asr/kaldi/blob/master/INSTALL).
+
+> (1)  
+> go to tools/ and follow INSTALL instructions there.  
+>
+> (2) 
+> go to src/ and follow INSTALL instructions there.  
+
+After running the scripts instructed by `INSTALL` in `tools/`, there will be reminder as followed. Go and run it.
 
 > Kaldi Warning: IRSTLM is not installed by default anymore. If you need IRSTLM, use the script `extras/install_irstlm.sh`
 
-After ensuring kaldi installation, run
+After ensuring kaldi installation, we can start by running
 
 ```
 git clone https://github.com/Jy-Liu/timit-preprocessor.git
