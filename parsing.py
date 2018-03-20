@@ -34,8 +34,8 @@ def main():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="parsing .wav.scp files for advanced use\ne.g. python3 parsing.py ~/Workspace/data/timit train", formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('datapath', metavar="<data path>", type=str)
-    parser.add_argument('folder', metavar="<folder name to be parsed>", type=str)
+    parser.add_argument('datapath', metavar="<timit relative path>", type=str)
+    parser.add_argument('folder', metavar="<train|test>", type=str)
     args = parser.parse_args()
 
     MATERIAL_PATH = 'data/material'
