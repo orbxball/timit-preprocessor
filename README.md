@@ -22,7 +22,7 @@ After running the scripts instructed by `INSTALL` in `tools/`, there will be rem
 After ensuring kaldi installation, we can start by running
 
 ```
-git clone https://github.com/Jy-Liu/timit-preprocessor.git
+git clone https://github.com/orbxball/timit-preprocessor.git
 ```
 
 ## Preprocessing
